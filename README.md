@@ -8,6 +8,8 @@ git submodule add git@github.com:metalevel-tech/JS-Advanced-React-ProgressBG-Hom
 ## Update the current repository's sub modules
 ```bash
 git submodule update --init --recursive
+git submodule update -f
+git submodule sync --recursive
 ```
 
 ## References
