@@ -2,7 +2,7 @@
 
 ## Added repositories
 ```bash
-git submodule add -b master https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework
+git submodule add -b master https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework js_homework
 git submodule update --init --recursive
 ```
 
