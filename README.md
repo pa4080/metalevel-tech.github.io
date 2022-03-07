@@ -8,8 +8,9 @@ git submodule update --init --recursive
 
 ## Update the current repository's sub modules
 ```bash
-git submodule update --recursive --remote
-git submodule update --recursive
+# git submodule update --recursive --remote
+# git submodule update --recursive
+git checkout master --recurse-submodules
 git pull --recurse-submodules
 ```
 
