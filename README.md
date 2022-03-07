@@ -20,6 +20,6 @@ git push
 * [Stack Overflow: Adding existing repo as a page on GitHub Pages](https://stackoverflow.com/a/52437739/6543935)
 * [GitHub Blog: Working with submodules](https://github.blog/2016-02-01-working-with-submodules/)
 * [<s>W3Docs: How to Pull the Latest Git Submodule</s>](https://www.w3docs.com/snippets/git/how-to-pull-the-latest-git-submodule.html)
-* [Force Git submodules to always stay current](https://stackoverflow.com/a/31851819/6543935)
+* [**Force Git submodules to always stay current**](https://stackoverflow.com/a/31851819/6543935)
 
 
