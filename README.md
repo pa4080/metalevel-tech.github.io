@@ -10,6 +10,8 @@ git submodule update --init --recursive
 ```bash
 git submodule update --recursive --remote
 #git pull --recurse-submodules
+git commit -m 'Comment'
+git push
 ```
 
 ## References
