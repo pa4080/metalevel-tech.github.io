@@ -2,16 +2,14 @@
 
 ## Added repositories
 ```bash
-git submodule add https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework
+git submodule add -b master https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework
 git submodule update --init --recursive
 ```
 
 ## Update the current repository's sub modules
 ```bash
-# git submodule update --recursive --remote
-# git submodule update --recursive
-git checkout master --recurse-submodules
-git pull --recurse-submodules
+git submodule update --recursive --remote
+#git pull --recurse-submodules
 ```
 
 ## References
