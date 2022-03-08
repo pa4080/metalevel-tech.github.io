@@ -20,9 +20,10 @@
                             (parseInt(rgb[1]) * 587) +
                             (parseInt(rgb[2]) * 114)) / 1000);
         const textColour = (brightness > 125) ? 'black' : 'white';
-        const backgroundColour = 'rgb(' + rgb[0] + ',' + rgb[1] + ',' + rgb[2] + ')';
+        // const backgroundColour = 'rgb(' + rgb[0] + ',' + rgb[1] + ',' + rgb[2] + ')';
+        
         $(node).css('color', textColour); 
-        $(node).css('background-color', backgroundColour);
+        // $(node).css('background-color', backgroundColour);
 
         console.log(i++);
     }
