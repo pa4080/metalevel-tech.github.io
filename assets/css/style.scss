@@ -7,7 +7,22 @@ body {
     background-color: #fff;
     background-image: url(../images/waves1.svg);
     background-position-y: -250px;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-position-y: -310px;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    body {
+        background-position-y: -350px;
+    }
+}
+
 .page-header {
     color: #fff;
     text-align: center;
