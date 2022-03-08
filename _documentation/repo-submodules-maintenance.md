@@ -3,8 +3,14 @@
 ## Added repositories
 ```bash
 git submodule add -b master https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework js_homework
+git submodule add -b master https://github.com/metalevel-tech/bindfs-to-home-bash.git
+git submodule add -b master https://github.com/metalevel-tech/cron-gui-launcher.git
+```
+
+```bash
 git submodule update --init --recursive
 ```
+
 
 ## Update the current repository's sub modules
 ```bash
