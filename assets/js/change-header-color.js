@@ -1,6 +1,8 @@
 // https://stackoverflow.com/questions/11867545/change-text-color-based-on-brightness-of-the-covered-background-area
+// https://css-tricks.com/using-javascript-to-adjust-saturation-and-brightness-of-rgb-colors/
 
 (function() {
+
     const rgb = [255, 0, 0];
 
     const node = document.querySelector('header.page-header');
