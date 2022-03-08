@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Следва текст.</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      .linked-text > a {
+        color: lightblue;
+        text-decoration: none;
+      }
+
+    </style>
+    
+  </head>
+
+  <body>
+    <div id="page-to-read">
+        <div class="player-to-read">
+          <div id="l2it-audio-player"></div>
+        
+          <script>
+              function initListen2It() {
+                  Listen2It.init({
+                      url: window.location.href,
+                      org_id: 'wWBSMKlp2R',
+                      integration_id: 'JkmwKEzgzM',
+                      container: '#l2it-audio-player'
+                  });
+              }
+              function initialize(i,t){var n;i.getElementById(t)?initListen2It():((n=i.createElement("script")).id=t,n.async=!0,n.src="https://widget.getlisten2it.com/widget.min.js",n.onload=initListen2It,i.head.appendChild(n))}function initiateCall(){initialize(document,"listen2it-widget")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+          </script>
+        </div>
+
+      <div class="container">
+        <div class="content-to-read">
+          Обекти.<br>
+          Управляеми обекти.<br>
+          Меню обекти.<br>
+          Позиция управляеми обекти.<br>
+          За да отворите Дървото на управляемите обекти, изберете меню Обекти, позиция Управляеми обекти.
+          </div>
+      </div>
+
+      <p class="linked-text"><a href="https://dashboard.getlisten2it.com/organisation">Go to the Dash board</a></p>
+      <div>
+        <textarea id="text-to-write" name="text-to-input" rows="4" cols="50" style="display: block; width: 100%;"></textarea>
+      </div>
+    </div>
+  </div>
+    <div class="version">v.1.0</div>
+    
+ 
+  </body>
+</html>
