@@ -2,6 +2,8 @@
 
 These are the active pages at this site:
 
+* [Back to the home page](/).
+
 * [GitHub Repo](https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework) : [My homework at ProgressBG' JavaScript Advanced React Course](/js_homework/)
  
 * [GitHub Repo](https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework/tree/master/MDN.Exercises) : [My Progress at MDN's JavaScript Guide](/js_homework/MDN.Exercises/)
