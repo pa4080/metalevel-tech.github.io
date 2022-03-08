@@ -4,7 +4,6 @@
     const rgb = [255, 0, 0];
 
     const node = document.querySelector('header.page-header');
-    let i = 0;
 
     // Randomly change to showcase updates
     setInterval(setContrast, 1000);
@@ -24,7 +23,5 @@
         
         $(node).css('color', textColour); 
         // $(node).css('background-color', backgroundColour);
-
-        console.log(i++);
     }
 })();
