@@ -32,3 +32,15 @@ body {
     background-image: none;
     /* background-position-y: -250px; */
 }
+
+main#content > ul.task-list {
+    padding-left: 0.4em;
+}
+
+ul.task-list li.task-list-item::marker {
+    color: transparent;
+}
+
+ul.task-list li.task-list-item input.task-list-item-checkbox {
+    margin-right: 1em;
+}
