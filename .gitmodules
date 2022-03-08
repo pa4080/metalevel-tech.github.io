@@ -2,3 +2,7 @@
 	path = js_homework
 	url = https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework
 	branch = master
+[submodule "bindfs-to-home-bash"]
+	path = bindfs-to-home-bash
+	url = https://github.com/metalevel-tech/bindfs-to-home-bash.git
+	branch = master
