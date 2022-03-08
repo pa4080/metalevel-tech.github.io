@@ -5,6 +5,7 @@
 
 body {
     background-color: #fff;
+    /* background-color: #f1f2f3; */
     background-image: url(../images/favicon/waves/waves_bright.svg);
     background-position-y: -250px;
     background-position-x: 50%;
@@ -33,6 +34,9 @@ body {
     /* background-position-y: -250px; */
 }
 
+/**
+ * GitHub MarkDown Check Boxes
+ */
 main#content > ul.task-list {
     padding-left: 0.4em;
 }
