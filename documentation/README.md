@@ -2,9 +2,9 @@
 
 These are the active pages at this site:
 
-* [My homework at ProgressBG' JavaScript Advanced React Course](js_homework/)
+* [My homework at ProgressBG' JavaScript Advanced React Course](/js_homework/)
  
-* [My Progress at MDN's JavaScript Guide](js_homework/MDN.Exercises/)
+* [My Progress at MDN's JavaScript Guide](/js_homework/MDN.Exercises/)
  
 * [Bindfs to the User’s Home Directory Bash Script](/bindfs-to-home-bash/)
  
