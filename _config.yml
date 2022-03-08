@@ -3,4 +3,4 @@ plugins:
 - jekyll-remote-theme
 gem "github-pages", group: :jekyll_plugins
 title: MetaLevel.tech
-description: Spas Z. Spasov Home Page ast GitHub
+description: Spas Z. Spasov Home Page at GitHub
