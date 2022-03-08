@@ -6,7 +6,7 @@
     const node = document.querySelector('header.page-header');
 
     // Randomly change to showcase updates
-    setInterval(setContrast, 1000);
+    setInterval(setContrast, 2000);
 
     function setContrast() {
         // Randomly update colours
