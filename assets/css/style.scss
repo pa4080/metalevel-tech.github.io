@@ -41,23 +41,33 @@ body {
     text-align: center;
     background-color: transparent;
     background-image: none;
+}
+
+.page-header h1,
+.page-header h2 {
     text-shadow: 1px 1px 0 #37b1be94, -1px -1px 0 #37b1be94, 1px -1px 0 #37b1be94, -1px 1px 0 #37b1be94, 2px 2px 5px #5555552a;
 }
 
-header.page-header > a {
+header.page-header a {
     color: white;
     text-decoration: none;
 }
 
-h2.project-tagline {
-    font-size: .86em;
-    color: white;
-    letter-spacing: .2em;
+h1.project-name {
+    margin-bottom: 0;
 }
 
-.main-content {
-    padding-top: 4rem;
+h2.project-tagline {
+    font-size: .8em;
+    color: white;
+    letter-spacing: .2em;
+    margin-top: 0;
+    // margin-bottom: 0;
 }
+
+// .main-content {
+//     padding-top: 4rem;
+// }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;    
