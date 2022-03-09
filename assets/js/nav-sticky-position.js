@@ -12,8 +12,7 @@
 
     const node = document.getElementById('nav');
     const stickyClass = 'sticky';
-    // let stickyFirstPass = false;
-    let scrollDirection = 0;
+    let scrollDirectionIndicator = 0;
 
     let nodeTopPosition = Number(window.getComputedStyle(node).top.replace('px', ''));
     let nodeHeight = Number(window.getComputedStyle(node).height.replace('px', ''));
@@ -25,23 +24,18 @@
 
     function doSomething(scrollPos, nodeTopPos) {
         const isNodeSticky = node.className.split(' ').indexOf(stickyClass) !== -1;
+        const scrollDirection = scrollDirectionIndicator - lastKnownScrollPosition;
 
-        // console.log(scrollPos, nodeTopPos, isNodeSticky);
-        
         if (scrollPos > nodeTopPos && !isNodeSticky) {
             node.classList.add(stickyClass);
-        // } else if (scrollPos > (nodeTopPos + nodeHeight + 6) && !stickyFirstPass) {
-        //     stickyFirstPass = true;
-        } else if (scrollPos <= (nodeTopPos + nodeHeight) && isNodeSticky) {
+            scrollDirectionIndicator = scrollPos - nodeHeight;
+        } else if (scrollPos <= (nodeTopPos + nodeHeight) && isNodeSticky && scrollDirection > 0) {
             node.classList.remove(stickyClass);
-            scrollDirection = scrollPos;
         }
     }
 
     document.addEventListener('scroll', function(e) {
         lastKnownScrollPosition = window.scrollY;
-
-        console.log(scrollDirection - lastKnownScrollPosition);
 
         if (!ticking) {
             window.requestAnimationFrame(function() {
