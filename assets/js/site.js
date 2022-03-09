@@ -8,7 +8,7 @@
     const list = document.body.querySelectorAll('.task-list li input').length;
     if (list) {
         const passed = document.body.querySelectorAll('.task-list li input[checked]').length;
-        const output = `&nbsp;Tacks ${list}, Completed ${passed}, ${((passed / list) * 100).toFixed(0)}%&nbsp;`;
+        const output = `&nbsp;Tasks ${list}; Completed ${passed}, ${((passed / list) * 100).toFixed(0)}%&nbsp;`;
     
         const element = document.createElement('code');
         element.style.position = 'absolute';
