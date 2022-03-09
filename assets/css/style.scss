@@ -111,6 +111,20 @@ div#nav {
     position: absolute;
     width: 100%;
     text-align: center;
+}
+div#nav div.relative {
+    position: relative;
+}
+
+div#nav.sticky {
+    position: sticky;
+    top: 0;
+}
+
+div#nav-inner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
     z-index: 10;
     background-color: white;
     padding: 0.4rem 6rem;
@@ -119,6 +133,9 @@ div#nav {
     background-position-x: 50%;
 }
 
+div#nav.sticky div#nav-inner {
+    box-shadow: #37aed617 0px 3px 10px 2px, #37b7a15e 0px 0px 12px 0px;
+}
 
 // For small screens
 div#nav {
@@ -151,12 +168,6 @@ a.nav-link {
 div#nav a {
     color: white;
     text-decoration: none;
-}
-
-div#nav.sticky {
-    position: sticky;
-    top: 0;
-    box-shadow: #37aed617 0px 3px 10px 2px, #37b7a15e 0px 0px 12px 0px;
 }
 
 /**
