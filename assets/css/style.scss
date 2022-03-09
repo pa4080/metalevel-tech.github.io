@@ -163,11 +163,12 @@ a.nav-link {
     padding: 0 0.5em;
     border: 1px solid transparent;
     margin: 0;
+    transition: .5s;
 }
 
-div#nav a {
-    color: white;
-    text-decoration: none;
+a.nav-link:hover {
+    background-color: #ffffff26;
+    transition: .3s;
 }
 
 /**

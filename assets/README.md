@@ -15,38 +15,40 @@ These are the active pages at this site:
 
 # Maintenance the Repository
 
+* Action: [Page deployment status](https://github.com/metalevel-tech/metalevel-tech.github.io/actions/workflows/pages/pages-build-deployment)
+
 * Maintenance the submodules at [metalevel-tech.github.io](https://github.com/metalevel-tech/metalevel-tech.github.io)
 
-## Added repositories
+    Added repositories:
 
-```bash
-git submodule add -b master https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework js_homework
-git submodule add -b master https://github.com/metalevel-tech/bindfs-to-home-bash.git
-git submodule add -b master https://github.com/metalevel-tech/cron-gui-launcher.git
-```
+    ```bash
+    git submodule add -b master https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework js_homework
+    git submodule add -b master https://github.com/metalevel-tech/bindfs-to-home-bash.git
+    git submodule add -b master https://github.com/metalevel-tech/cron-gui-launcher.git
+    ```
 
-```bash
-git submodule update --init --recursive
-```
+    ```bash
+    git submodule update --init --recursive
+    ```
 
 
-## Update the current repository's sub modules
+    Update the current repository's sub modules:
 
-```bash
-git submodule update --recursive --remote
-#git pull --recurse-submodules
-git commit -m 'Comment'
-git push
-```
+    ```bash
+    git submodule update --recursive --remote
+    #git pull --recurse-submodules
+    git commit -m 'Comment'
+    git push
+    ```
 
-## References
+    References:
 
-* [GitHub Pages: Websites for you and your projects](https://pages.github.com/)
+  * [GitHub Pages: Websites for you and your projects](https://pages.github.com/)
 
-* [Stack Overflow: Adding existing repo as a page on GitHub Pages](https://stackoverflow.com/a/52437739/6543935)
+  * [Stack Overflow: Adding existing repo as a page on GitHub Pages](https://stackoverflow.com/a/52437739/6543935)
 
-* [GitHub Blog: Working with submodules](https://github.blog/2016-02-01-working-with-submodules/)
+  * [GitHub Blog: Working with submodules](https://github.blog/2016-02-01-working-with-submodules/)
 
-* [**Force Git submodules to always stay current**](https://stackoverflow.com/a/31851819/6543935)
+  * [**Force Git submodules to always stay current**](https://stackoverflow.com/a/31851819/6543935)
 
 
