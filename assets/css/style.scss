@@ -7,25 +7,31 @@ body {
     background-color: #fff;
     /* background-color: #f1f2f3; */
     background-image: url(/assets/images/waves/waves_bright.svg);
-    background-position-y: -210px;
     background-position-x: 50%;
     background-repeat: no-repeat;
-
+    
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: 16px;
     line-height: 1.75;
     color: #272f33;
 }
 
-@media screen and (max-width: 1024px) {
+// For small screens
+body {
+    background-position-y: -350px;   
+}
+
+// For tablets or small laptops
+@media screen and (min-width: 42em) {
     body {
         background-position-y: -310px;
     }
 }
 
-@media screen and (max-width: 672px) {
+// For full screen
+@media screen and (min-width: 64em) {
     body {
-        background-position-y: -350px;
+        background-position-y: -210px;
     }
 }
 
@@ -41,6 +47,16 @@ body {
 header.page-header > a {
     color: white;
     text-decoration: none;
+}
+
+h2.project-tagline {
+    font-size: .86em;
+    color: white;
+    letter-spacing: .2em;
+}
+
+.main-content {
+    padding-top: 4rem;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
@@ -59,12 +75,6 @@ b, strong {
     body {
         background-position-y: -400px;
         color: #000;
-    }
-
-    h2.project-tagline {
-        font-size: .9em;
-        color: white;
-        letter-spacing: .1em;
     }
 
     main#content {
