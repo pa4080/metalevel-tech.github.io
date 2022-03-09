@@ -12,7 +12,8 @@
 
     const node = document.getElementById('nav');
     const stickyClass = 'sticky';
-    let stickyFirstPass = false;
+    // let stickyFirstPass = false;
+    let scrollDirection = 0;
 
     let nodeTopPosition = Number(window.getComputedStyle(node).top.replace('px', ''));
     let nodeHeight = Number(window.getComputedStyle(node).height.replace('px', ''));
@@ -29,15 +30,18 @@
         
         if (scrollPos > nodeTopPos && !isNodeSticky) {
             node.classList.add(stickyClass);
-        } else if (scrollPos > (nodeTopPos + nodeHeight + 6) && !stickyFirstPass) {
-            stickyFirstPass = true;
+        // } else if (scrollPos > (nodeTopPos + nodeHeight + 6) && !stickyFirstPass) {
+        //     stickyFirstPass = true;
         } else if (scrollPos <= (nodeTopPos + nodeHeight) && isNodeSticky) {
             node.classList.remove(stickyClass);
+            scrollDirection = scrollPos;
         }
     }
 
     document.addEventListener('scroll', function(e) {
         lastKnownScrollPosition = window.scrollY;
+
+        console.log(scrollDirection - lastKnownScrollPosition);
 
         if (!ticking) {
             window.requestAnimationFrame(function() {
