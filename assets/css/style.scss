@@ -74,16 +74,13 @@ h2.project-tagline {
     color: white;
     letter-spacing: .2em;
     margin-top: 0;
-    // margin-bottom: 0;
 }
 
-// .main-content {
-//     padding-top: 4rem;
-// }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #37b3ad;  
+    color: #37b3ad;
+    line-height: 1.35;
 }
 
 b, strong {
