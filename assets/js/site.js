@@ -13,14 +13,22 @@
     const node = document.getElementById('nav');
     const stickyClass = 'sticky';
 
+    let nodeTopPosition = Number(window.getComputedStyle(node).top.replace('px', ''));
+    let nodeHeight = Number(window.getComputedStyle(node).height.replace('px', ''));
+    
+    window.addEventListener('resize', function(e) {
+        nodeTopPosition = Number(window.getComputedStyle(node).top.replace('px', ''));
+        nodeHeight = Number(window.getComputedStyle(node).height.replace('px', ''));
+    });
+
     function doSomething(scrollPos, nodeTopPos) {
         const isNodeSticky = node.className.split(' ').indexOf(stickyClass) !== -1;
 
+        console.log(scrollPos, nodeTopPos, isNodeSticky);
+        
         if (scrollPos > nodeTopPos && !isNodeSticky) {
             node.classList.add(stickyClass);
-        }
-
-        if (scrollPos <= nodeTopPos && isNodeSticky) {
+        } else if (scrollPos <= (nodeTopPos + nodeHeight) && isNodeSticky) {
             node.classList.remove(stickyClass);
         }
     }
@@ -30,8 +38,6 @@
 
         if (!ticking) {
             window.requestAnimationFrame(function() {
-                let nodeTopPosition = window.getComputedStyle(node).top;
-
                 doSomething(lastKnownScrollPosition, nodeTopPosition);
                 ticking = false;
             });
