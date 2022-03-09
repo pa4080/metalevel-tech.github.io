@@ -21,10 +21,18 @@ body {
     background-position-y: -350px;   
 }
 
+.page-header {
+    padding: 1.5rem 1rem 2.5rem;
+}
+
 // For tablets or small laptops
 @media screen and (min-width: 42em) {
     body {
         background-position-y: -310px;
+    }
+
+    .page-header {
+        padding: 2.5rem 6rem 3.5rem;
     }
 }
 
@@ -32,6 +40,10 @@ body {
 @media screen and (min-width: 64em) {
     body {
         background-position-y: -210px;
+    }
+
+    .page-header {
+        padding: 4.5rem 6rem 5.5rem;
     }
 }
 
@@ -134,6 +146,18 @@ a.nav-link {
 div#nav a {
     color: white;
     text-decoration: none;
+}
+
+div#nav.sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0.4rem 6rem;
+    background-image: url(/assets/images/waves/waves_bright.svg);
+    background-position-y: 0;
+    background-position-x: 50%;
+    box-shadow: rgb(55 174 214 / 9%) 0px 3px 10px 2px, rgb(55 183 161 / 37%) 0px 0px 12px 0px;
+    z-index: 10;
 }
 
 /**
