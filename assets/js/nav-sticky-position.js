@@ -12,6 +12,7 @@
 
     const node = document.getElementById('nav');
     const stickyClass = 'sticky';
+    let stickyRemove = false;
 
     let nodeTopPosition = Number(window.getComputedStyle(node).top.replace('px', ''));
     let nodeHeight = Number(window.getComputedStyle(node).height.replace('px', ''));
@@ -28,7 +29,10 @@
         
         if (scrollPos > nodeTopPos && !isNodeSticky) {
             node.classList.add(stickyClass);
-        } else if (scrollPos <= (nodeTopPos + nodeHeight) && isNodeSticky) {
+            stickyRemove = false;
+        } else if (scrollPos > (nodeTopPos + nodeHeight + 6) && !stickyRemove) {
+            stickyRemove = true;
+        } else if (scrollPos <= (nodeTopPos + nodeHeight) && isNodeSticky && stickyRemove) {
             node.classList.remove(stickyClass);
         }
     }

@@ -109,29 +109,33 @@ b, strong {
  */
 div#nav {
     position: absolute;
-    padding: 0 6rem;
     width: 100%;
     text-align: center;
     z-index: 10;
+    background-color: white;
+    padding: 0.4rem 6rem;
+    background-image: url(/assets/images/waves/waves_bright.svg);
+    background-position-y: 0;
+    background-position-x: 50%;
 }
 
 
 // For small screens
 div#nav {
-    top: 6.8rem;
+    top: 6.6rem;
 }
 
 // For tablets or small laptops
 @media screen and (min-width: 42em) {
     div#nav {
-        top: 8.8rem;
+        top: 8.6rem;
     }
 }
 
 // For full screen
 @media screen and (min-width: 64em) {
     div#nav {
-        top: 13.8rem;
+        top: 13.6rem;
     }
 }
 
@@ -152,13 +156,7 @@ div#nav a {
 div#nav.sticky {
     position: sticky;
     top: 0;
-    background-color: white;
-    padding: 0.4rem 6rem;
-    background-image: url(/assets/images/waves/waves_bright.svg);
-    background-position-y: 0;
-    background-position-x: 50%;
     box-shadow: #37aed617 0px 3px 10px 2px, #37b7a15e 0px 0px 12px 0px;
-    // transition: .6s;
 }
 
 /**
