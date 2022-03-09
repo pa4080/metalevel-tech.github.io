@@ -79,7 +79,7 @@ h2.project-tagline {
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #37b3ad;
+    color: #36af94;
     line-height: 1.35;
 }
 
@@ -109,6 +109,7 @@ div#nav {
     position: absolute;
     width: 100%;
     text-align: center;
+    z-index: 10;
 }
 div#nav div.relative {
     position: relative;
@@ -123,7 +124,7 @@ div#nav-inner {
     position: absolute;
     width: 100%;
     text-align: center;
-    z-index: 10;
+    z-index: 15;
     padding: 0.4rem 6rem;
     background-position-y: 0;
     background-position-x: 50%;
