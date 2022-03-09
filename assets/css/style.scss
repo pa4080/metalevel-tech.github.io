@@ -97,6 +97,11 @@ b, strong {
         color: #000;
     }
 
+    body a {
+        background-position-y: -400px;
+        color: #000;
+    }
+
     main#content {
         margin: 3em .8em 0;
     }
@@ -168,6 +173,12 @@ a.nav-link {
 a.nav-link:hover {
     background-color: #ffffff26;
     transition: .3s;
+}
+
+@media print {
+    div#nav {
+        display: none;
+    }
 }
 
 /**

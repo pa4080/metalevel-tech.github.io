@@ -15,8 +15,6 @@
         element.style.top = '-3rem';
         element.style.right = '0';
         element.style.border = '1px solid #ccc';
-        element.style.display = 'none';
-        element.style.transition = '1s';
         element.innerHTML = output;
         
         const wrapper = document.createElement('div');
@@ -25,7 +23,5 @@
         
         const firstH1 = document.body.querySelector('main#content > h1:first-child');
         firstH1.append(wrapper);
-
-        element.style.display = 'block';
     }
 })();
