@@ -26,7 +26,7 @@
         const isNodeSticky = node.className.split(' ').indexOf(stickyClass) !== -1;
         const scrollDirection = scrollDirectionIndicator - lastKnownScrollPosition;
 
-        if (scrollPos > nodeTopPos && !isNodeSticky) {
+        if (scrollPos > (nodeTopPos - 2) && !isNodeSticky) {
             node.classList.add(stickyClass);
             scrollDirectionIndicator = scrollPos - nodeHeight;
         } else if (scrollPos <= (nodeTopPos + nodeHeight) && isNodeSticky && scrollDirection > 0) {
