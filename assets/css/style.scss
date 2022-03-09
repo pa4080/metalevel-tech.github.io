@@ -102,10 +102,6 @@ div#nav {
     text-align: center;
 }
 
-div#nav a {
-    color: white;
-    text-decoration: none;
-}
 
 // For small screens
 div#nav {
@@ -124,6 +120,20 @@ div#nav {
     div#nav {
         top: 13.8rem;
     }
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 0.5em;
+    border: 1px solid transparent;
+    margin: 0;
+}
+
+div#nav a {
+    color: white;
+    text-decoration: none;
 }
 
 /**
