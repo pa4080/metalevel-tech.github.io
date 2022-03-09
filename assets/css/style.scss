@@ -93,6 +93,40 @@ b, strong {
 }
 
 /**
+ * Navigation menu
+ */
+div#nav {
+    position: absolute;
+    padding: 0 6rem;
+    width: 100%;
+    text-align: center;
+}
+
+div#nav a {
+    color: white;
+    text-decoration: none;
+}
+
+// For small screens
+div#nav {
+    top: 6.8rem;
+}
+
+// For tablets or small laptops
+@media screen and (min-width: 42em) {
+    div#nav {
+        top: 8.8rem;
+    }
+}
+
+// For full screen
+@media screen and (min-width: 64em) {
+    div#nav {
+        top: 13.8rem;
+    }
+}
+
+/**
  * GitHub MarkDown Check Boxes
  */
 main#content > ul.task-list {
