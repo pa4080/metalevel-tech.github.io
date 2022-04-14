@@ -6,7 +6,7 @@ These are the active pages at this site:
 
 * [GitHub Repo](https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework) : [My homework at ProgressBG' JavaScript Advanced React Course](/js_homework/)
  
-* [GitHub Repo](https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework/tree/master/MDN.Exercises) : [My Progress at MDN's JavaScript Guide](/js_homework/MDN.Exercises/)
+* [GitHub Repo](https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework/tree/master/mdn.study) : [My Progress at MDN's JavaScript Guide](/js_homework/mdn.study/)
  
 * [GitHub Repo](https://github.com/metalevel-tech/bindfs-to-home-bash) : [Bindfs to the User’s Home Directory Bash Script](/bindfs-to-home-bash/)
  
