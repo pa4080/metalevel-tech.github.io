@@ -4,9 +4,9 @@ These are the active pages at this site:
 
 * [Back to the home page](/).
 
-* [GitHub Repo](https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework) : [My homework at ProgressBG' JavaScript Advanced React Course](/js_homework/)
+* [GitHub Repo](https://github.com/metalevel-tech/js-advanced-react-progressbg-homework) : [My homework at ProgressBG' JavaScript Advanced React Course](/js_homework/)
  
-* [GitHub Repo](https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework/tree/master/mdn.study) : [My Progress at MDN's JavaScript Guide](/js_homework/mdn.study/)
+* [GitHub Repo](https://github.com/metalevel-tech/js-advanced-react-progressbg-homework/tree/master/mdn.study) : [My Progress at MDN's JavaScript Guide](/js_homework/mdn.study/)
  
 * [GitHub Repo](https://github.com/metalevel-tech/bindfs-to-home-bash) : [Bindfs to the User’s Home Directory Bash Script](/bindfs-to-home-bash/)
  
@@ -22,7 +22,7 @@ These are the active pages at this site:
     Added repositories:
 
     ```bash
-    git submodule add -b master https://github.com/metalevel-tech/JS-Advanced-React-ProgressBG-Homework js_homework
+    git submodule add -b master https://github.com/metalevel-tech/js-advanced-react-progressbg-homework js_homework
     git submodule add -b master https://github.com/metalevel-tech/bindfs-to-home-bash.git
     git submodule add -b master https://github.com/metalevel-tech/cron-gui-launcher.git
     ```

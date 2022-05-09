@@ -6,3 +6,7 @@
 	path = cron-gui-launcher
 	url = https://github.com/metalevel-tech/cron-gui-launcher.git
 	branch = master
+[submodule "js_homework"]
+	path = js_homework
+	url = https://github.com/metalevel-tech/js-advanced-react-progressmg-homework
+	branch = master
