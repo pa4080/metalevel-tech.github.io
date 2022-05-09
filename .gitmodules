@@ -8,5 +8,5 @@
 	branch = master
 [submodule "js_homework"]
 	path = js_homework
-	url = https://github.com/metalevel-tech/js-advanced-react-progressmg-homework
+	url = https://github.com/metalevel-tech/js-advanced-react-progressbg-homework
 	branch = master
