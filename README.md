@@ -1,19 +1,24 @@
-# Submodules
+# GitHub.MetaLevel.Tech
+
+Some notes about the repository maintenance.
+
+
+## Submodules in use
 
 These are the active pages at this site:
 
-* [GitHub Repo](https://github.com/metalevel-tech/js-advanced-react-progressbg-homework) : [My homework at ProgressBG' JavaScript Advanced React Course](/js_homework/)
+* [GitHub Repo](https://github.com/metalevel-tech/js-advanced-react-progressbg-homework): [My homework at ProgressBG' JavaScript Advanced React Course](/js_homework/)
  
-* [GitHub Repo](https://github.com/metalevel-tech/js-advanced-react-progressbg-homework/tree/master/mdn.study) : [My Progress at MDN's JavaScript Guide](/js_homework/mdn.study/)
+* [GitHub Repo](https://github.com/metalevel-tech/js-advanced-react-progressbg-homework/tree/master/mdn.study): [My Progress at MDN's JavaScript Guide](/js_homework/mdn.study/)
 
 
-# Maintenance the Repository
+## Maintenance the Repository
 
-* Action: [Page deployment status](https://github.com/metalevel-tech/metalevel-tech.github.io/actions/workflows/pages/pages-build-deployment)
+Action: [Page deployment status](https://github.com/metalevel-tech/metalevel-tech.github.io/actions/workflows/pages/pages-build-deployment)
 
-* Maintenance the submodules at [metalevel-tech.github.io](https://github.com/metalevel-tech/metalevel-tech.github.io)
+Maintenance the submodules at [metalevel-tech.github.io](https://github.com/metalevel-tech/metalevel-tech.github.io)
 
-    Added repositories:
+*  Added repositories:
 
     ```bash
     git submodule add -b master https://github.com/metalevel-tech/js-advanced-react-progressbg-homework js_homework
@@ -26,7 +31,7 @@ These are the active pages at this site:
     ```
 
 
-    Update the current repository's sub modules:
+* Update the current repository's sub modules:
 
     ```bash
     git submodule update --recursive --remote
@@ -35,7 +40,7 @@ These are the active pages at this site:
     git push
     ```
 
-    References:
+## References
 
   * [GitHub Pages: Websites for you and your projects](https://pages.github.com/)
 
