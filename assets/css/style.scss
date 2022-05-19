@@ -18,11 +18,13 @@ body {
 
 // For small screens
 body {
-    background-position-y: -350px;   
+    // background-position-y: -350px;
 }
 
 .page-header {
     padding: 1.5rem 1rem 2.5rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: #00913c;
 }
 
 // For tablets or small laptops
