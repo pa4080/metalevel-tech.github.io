@@ -51,7 +51,7 @@
         "id":    7,
         "label": "MDN",
         "name":  "MDN's documentation study.",
-        "desc":  "My progress at MDN's documentation.",
+        "desc":  "My progress at the MDN's documentation.",
         "src":   "github.com/metalevel-tech/js-advanced-react-progressbg-homework/mdn.study",
         "home":  "github.metalevel.tech/js_homework/mdn.study"
     }
