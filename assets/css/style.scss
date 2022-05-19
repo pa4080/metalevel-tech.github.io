@@ -49,6 +49,12 @@ body {
     font-size: 1em;
 }
 
+@media screen and (max-width: 520px) {
+    .main-content {
+        padding: 3rem 1rem 2rem;
+    }
+}
+
 .page-header h1,
 .page-header h2 {
     text-shadow: none;
@@ -62,17 +68,14 @@ header.page-header a {
 
 h1.project-name {
     margin-bottom: 0;
-    // font-size: 3em;
     text-align: center;
     font-family: "Unicephalon", 'Roboto Slab', sans-serif;
-    /* font-size: 7em; */
     font-size: 9vw;
     user-select: none;
 }
 
 @media screen and (min-width: 1100px) {
     h1.project-name {
-        // margin: 1em 0 0;
         font-size: 6.2em;
     }
 }
@@ -84,6 +87,12 @@ h2.project-tagline {
     margin-top: 0;
     opacity: 1;
     margin: 0;
+}
+
+@media screen and (max-width: 250px) {
+    h1.project-name {
+        font-size: 2.8vw;
+    }
 }
 
 .main-content h1,
@@ -141,6 +150,13 @@ div#nav {
 @media screen and (max-width: 720px) {
     div#nav {
         top: 49vw;
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    div#nav {
+        font-size: 4vw;
     }
 }
 
@@ -173,7 +189,10 @@ div#nav.sticky div#nav-inner {
     background-color: #00913c;
 }
 
-// Header links
+
+/**
+ * Header links
+ */
 .header-links {
     width: fit-content;
     margin: auto;
@@ -242,4 +261,18 @@ ul.task-list li.task-list-item::marker {
 
 ul.task-list li.task-list-item input.task-list-item-checkbox {
     margin-right: 1em;
+}
+
+/**
+ * markdown-check-list-stats.js
+ */
+#markdown-check-list-stats {
+    position: absolute;
+    top: -2.5rem;
+    right: 0px;
+    border: 1px solid rgb(204, 204, 204);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
 }

@@ -11,10 +11,11 @@
         const output = `&nbsp;Tasks ${list}; Completed ${passed}, ${((passed / list) * 100).toFixed(0)}%&nbsp;`;
     
         const element = document.createElement('code');
-        element.style.position = 'absolute';
-        element.style.top = '-5rem';
-        element.style.right = '0';
-        element.style.border = '1px solid #ccc';
+        // element.style.position = 'absolute';
+        // element.style.top = '-2.5rem';
+        // element.style.right = '0';
+        // element.style.border = '1px solid #ccc';
+        element.id = 'markdown-check-list-stats';
         element.innerHTML = output;
         
         const wrapper = document.createElement('div');
