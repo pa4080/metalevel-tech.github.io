@@ -40,10 +40,10 @@ body {
 
 // For tablets or small laptops
 // @media screen and (min-width: 42em) {
-    .page-header {
-        padding: 2.5rem 6rem 1.5em;
-    }
-// }
+//     .page-header {
+//         padding: 2.5rem 6rem 1.5em;
+//     }
+// // }
 
 // For full screen
 // @media screen and (min-width: 64em) {
@@ -141,7 +141,7 @@ div#nav-inner {
     width: 100%;
     text-align: center;
     z-index: 15;
-    padding: 0.4rem 6rem;
+    // padding: 0.4rem 6rem;
     background-position-y: 0;
     background-position-x: 50%;
 }
@@ -153,17 +153,17 @@ div#nav.sticky div#nav-inner {
     background-color: #00913c;
 }
 
-// // For small screens
-div#nav {
-    top: 8.5em;
-}
+// // // For small screens
+// div#nav {
+//     top: 8.5em;
+// }
 
-// For tablets or small laptops
-@media screen and (min-width: 42em) {
-    div#nav {
-        top: 10em;
-    }
-}
+// // For tablets or small laptops
+// @media screen and (min-width: 42em) {
+//     div#nav {
+//         top: 10em;
+//     }
+// }
 
 // // For full screen
 // @media screen and (min-width: 64em) {
