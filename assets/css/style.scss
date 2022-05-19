@@ -33,6 +33,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 3em;
 }
 
 .main-content {
@@ -109,12 +110,13 @@ strong {
 /**
  * Navigation menu
  */
-div#nav {
+ div#nav {
     position: absolute;
     width: 100%;
     text-align: center;
     z-index: 10;
     font-family: "Unicephalon", 'Roboto Slab', sans-serif;
+    top: 22em;
 }
 
 div#nav div.relative {
@@ -138,7 +140,7 @@ div#nav-inner {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    top: 19em;
+    background-color: #00913c;
 }
 
 div#nav.sticky div#nav-inner {
