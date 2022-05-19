@@ -145,34 +145,34 @@ div#nav.sticky div#nav-inner {
 }
 
 // Header links
-.footer-inner {
+.header-links {
     width: fit-content;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    font-size: .6em;
+    // font-size: .6em;
 }
 
-.footer-inner>a {
+.header-links>a {
     display: inline-block;
     padding: .6em 0.8em;
     color: transparent;
     text-decoration: none;
 }
 
-.footer-inner>a>img {
+.header-links>a>img {
     width: 2em;
     height: 2em;
     transition: transform 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 320px) {
-    .footer-inner>a>img {
+    .header-links>a>img {
         width: 1.6em;
         height: 1.6em;
     }
 }
 
-.footer-inner>a:hover>img {
+.header-links>a:hover>img {
     transform: scale(1.4);
     transition: transform 0.2s ease-in-out;
 }
