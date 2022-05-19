@@ -1,0 +1,34 @@
+[
+    {
+        "id":    1,
+        "label": "Bounce balls",
+        "name":  "Bounce balls game (only desktop)",
+        "desc":  "Simple JavaScript game that uses the Canvas API.",
+        "src":   "github.com/metalevel-tech/js-bounce-balls-game",
+        "home":  "bballs.metalevel.tech/github"
+    },
+    {
+        "id":    2,
+        "label": "Type&shy;writer",
+        "name":  "Typewriter with Promises",
+        "desc":  "A simple JavaScript application that I developed while learning JS promises.",
+        "src":   "github.com/metalevel-tech/js-promises-typewriter",
+        "home":  "typewriter.metalevel.tech/github"
+    },
+    {
+        "id":    3,
+        "label": "Task manager",
+        "name":  "Simple Task Manager",
+        "desc":  "A simple JavaScript application, exercise of REST API.",
+        "src":   "github.com/metalevel-tech/js-simple-task-manager",
+        "home":  "stasks.metalevel.tech/github"
+    },
+    {
+        "id":    4,
+        "label": "Songs gallery",
+        "name":  "Songs Gallery with Promises",
+        "desc":  "A simple JavaScript application that I developed while learning JS promises.",
+        "src":   "github.com/metalevel-tech/js-promises-songs-gallery",
+        "home":  "songsg.metalevel.tech/github"
+    }
+]
