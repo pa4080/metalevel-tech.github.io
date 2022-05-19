@@ -30,35 +30,37 @@
     <script src="/assets/js/nav-sticky-position.js"></script>
     
     <header class="page-header" role="banner">
-      <a href="/">
-        <!-- h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1 -->
-        <h1 class="project-name">{{ site.title }}</h1>
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      </a>
-      {% if site.github.is_project_page %}
-      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-
-      <div class="header-links">
-        <a href="https://github.com/metalevel-tech" target="blank">
-          <img src="/assets/icons/github-white.svg" alt="GitHub Icon">
+      <div class="header-wrapper">
+        <a href="/">
+          <!-- h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1 -->
+          <h1 class="project-name">{{ site.title }}</h1>
+          <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </a>
-        <a href="https://askubuntu.com/users/566421/pa4080" target="blank">
-          <img src="/assets/icons/ubuntu-white.svg" alt="AskUbuntu Icon">
-        </a>
-        <a href="https://about.metalevel.tech" target="blank">
-          <img src="/assets/icons/user-pen-white.svg" alt="About MLT Icon">
-        </a>
-        <a href="https://www.linkedin.com/in/spas-z-spasov" target="blank">
-          <img src="/assets/icons/linked-in-white-square.svg" alt="LinkedIn Icon">
-        </a>
-        <a href="https://meta.wikimedia.org/wiki/User:Spas.Z.Spasov" target="blank">
-          <img src="/assets/icons/wikimedia-white.svg" alt="MediaWiki Icon">
-        </a>
+        {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        {% endif %}
+        {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+        {% endif %}
+  
+        <div class="header-links">
+          <a href="https://github.com/metalevel-tech" target="blank">
+            <img src="/assets/icons/github-white.svg" alt="GitHub Icon">
+          </a>
+          <a href="https://askubuntu.com/users/566421/pa4080" target="blank">
+            <img src="/assets/icons/ubuntu-white.svg" alt="AskUbuntu Icon">
+          </a>
+          <a href="https://about.metalevel.tech" target="blank">
+            <img src="/assets/icons/user-pen-white.svg" alt="About MLT Icon">
+          </a>
+          <a href="https://www.linkedin.com/in/spas-z-spasov" target="blank">
+            <img src="/assets/icons/linked-in-white-square.svg" alt="LinkedIn Icon">
+          </a>
+          <a href="https://meta.wikimedia.org/wiki/User:Spas.Z.Spasov" target="blank">
+            <img src="/assets/icons/wikimedia-white.svg" alt="MediaWiki Icon">
+          </a>
+        </div>
       </div>
     </header>
 

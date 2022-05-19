@@ -29,6 +29,10 @@ body {
     text-align: center;
     background-image: none;
     height: 22em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-content {
@@ -139,8 +143,6 @@ div#nav-inner {
 
 div#nav.sticky div#nav-inner {
     background-color: white;
-    // background-image: url(/assets/images/waves/waves_bright.svg);
-    // box-shadow: #37aed617 0px 3px 10px 2px, #37b7a15e 0px 0px 12px 0px;
     background-color: #00913c;
 }
 
@@ -149,7 +151,8 @@ div#nav.sticky div#nav-inner {
     width: fit-content;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    // font-size: .6em;
+    height: 3.2em;
+    margin-top: 1.2em;
 }
 
 .header-links>a {
