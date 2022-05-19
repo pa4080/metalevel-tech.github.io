@@ -73,6 +73,7 @@ h2.project-tagline {
     letter-spacing: .2em;
     margin-top: 0;
     opacity: 1;
+    margin: 0;
 }
 
 .main-content h1,
@@ -154,15 +155,15 @@ div#nav.sticky div#nav-inner {
 
 // // For small screens
 div#nav {
-    top: 10em;
+    top: 8.5em;
 }
 
-// // For tablets or small laptops
-// @media screen and (min-width: 42em) {
-//     div#nav {
-//         top: 8.5rem;
-//     }
-// }
+// For tablets or small laptops
+@media screen and (min-width: 42em) {
+    div#nav {
+        top: 10em;
+    }
+}
 
 // // For full screen
 // @media screen and (min-width: 64em) {
