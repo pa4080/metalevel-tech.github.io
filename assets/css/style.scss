@@ -15,12 +15,6 @@
 
 body {
     background-color: #fff;
-    /* background-color: #f1f2f3; */
-    // background-image: url(/assets/images/waves/waves_bright.svg);
-    // background-position-x: 50%;
-    // background-repeat: no-repeat;
-
-    // font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.75;
@@ -29,14 +23,12 @@ body {
 
 .page-header {
     padding: 0;
-    // padding: 1.5rem 1rem 2.5rem;
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
     background-color: #00913c;
-
-    // font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-family: "Unicephalon", 'Roboto Slab', sans-serif;
     text-align: center;
     background-image: none;
+    height: 22em;
 }
 
 .main-content {
@@ -45,23 +37,9 @@ body {
     margin: 0 auto;
     font-size: 1em;
 }
-// For tablets or small laptops
-// @media screen and (min-width: 42em) {
-//     .page-header {
-//         padding: 2.5rem 6rem 1.5em;
-//     }
-// // }
-
-// For full screen
-// @media screen and (min-width: 64em) {
-//     .page-header {
-//         padding: 2.5rem 6rem 1.5em;
-//     }
-// }
 
 .page-header h1,
 .page-header h2 {
-    // text-shadow: 1px 1px 0 #37b1be94, -1px -1px 0 #37b1be94, 1px -1px 0 #37b1be94, -1px 1px 0 #37b1be94, 2px 2px 5px #5555552a;
     text-shadow: none;
 }
 
@@ -149,9 +127,14 @@ div#nav-inner {
     width: 100%;
     text-align: center;
     z-index: 15;
-    // padding: 0.4rem 6rem;
     background-position-y: 0;
     background-position-x: 50%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 19em;
 }
 
 div#nav.sticky div#nav-inner {
@@ -161,24 +144,39 @@ div#nav.sticky div#nav-inner {
     background-color: #00913c;
 }
 
-// // // For small screens
-// div#nav {
-//     top: 8.5em;
-// }
+// Header links
+.footer-inner {
+    width: fit-content;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: .6em;
+}
 
-// // For tablets or small laptops
-// @media screen and (min-width: 42em) {
-//     div#nav {
-//         top: 10em;
-//     }
-// }
+.footer-inner>a {
+    display: inline-block;
+    padding: .6em 0.8em;
+    color: transparent;
+    text-decoration: none;
+}
 
-// // For full screen
-// @media screen and (min-width: 64em) {
-//     div#nav {
-//         top: 13.5rem;
-//     }
-// }
+.footer-inner>a>img {
+    width: 2em;
+    height: 2em;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 320px) {
+    .footer-inner>a>img {
+        width: 1.6em;
+        height: 1.6em;
+    }
+}
+
+.footer-inner>a:hover>img {
+    transform: scale(1.4);
+    transition: transform 0.2s ease-in-out;
+}
+// Header links
 
 a.nav-link {
     color: white;
