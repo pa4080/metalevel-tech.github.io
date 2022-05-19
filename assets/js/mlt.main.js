@@ -63,9 +63,15 @@ class Item {
             });
 
             if (this.button.classList.contains('active')) {
-                nodes.infoWrapper.classList.add('active');
+                nodes.infoWrapper.style.display = 'block';
+                setTimeout(() => {
+                    nodes.infoWrapper.classList.add('active');
+                }, 100);
             } else {
                 nodes.infoWrapper.classList.remove('active');
+                setTimeout(() => {
+                    nodes.infoWrapper.style.display = 'none';
+                }, 1000);
             }
 
             this.addItemDataToDom();
@@ -229,16 +235,16 @@ class Item {
 }
 
 (function init() {
-    // if (window.location.pathname === '/') {
+    if (window.location.pathname === '/') {
         window.addEventListener('load', async (event) => { 
             await Item.getItemsData(); // Item.addItemsButtonsToDom(); is invoked inside.
-            nodes.infoWrapper.style.display = 'block';
+            // nodes.infoWrapper.style.display = 'block';
         });
         window.addEventListener('resize', async (event) => { Item.addItemsButtonsToDom(); });
     
         nodes.itemsToggleLeft.addEventListener('click', () => { Item.toggleItemsLeft(); });
         nodes.itemsToggleRight.addEventListener('click', () => { Item.toggleItemsRight(); });
-    // } else {
-    //     nodes.navigation.style.display = 'none';
-    // }
+    } else {
+        nodes.navigation.style.display = 'none';
+    }
 })();

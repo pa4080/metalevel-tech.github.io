@@ -42,9 +42,17 @@
     {
         "id":    6,
         "label": "Homework",
-        "name":  "JavaScript Advanced and React Course's Homework",
-        "desc":  "<a href='https://progressbg.net/javascript-advanced-with-reactjs/'> The course page at ProgressBG<a/>",
+        "name":  "JavaScript Advanced and ReactJS course's homework",
+        "desc":  "<a href='https://progressbg.net/javascript-advanced-with-reactjs/'>The course's home page at ProgressBG<a/>",
         "src":   "github.com/metalevel-tech/js-advanced-react-progressbg-homework",
         "home":  "github.metalevel.tech/js_homework/"
+    },
+    {
+        "id":    7,
+        "label": "MDN",
+        "name":  "MDN's documentation study.",
+        "desc":  "My progress at MDN's documentation.",
+        "src":   "github.com/metalevel-tech/js-advanced-react-progressbg-homework/mdn.study",
+        "home":  "github.metalevel.tech/js_homework/mdn.study"
     }
 ]
