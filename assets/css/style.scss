@@ -28,17 +28,23 @@ body {
     font-family: "Unicephalon", 'Roboto Slab', sans-serif;
     text-align: center;
     background-image: none;
-    height: 22em;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 3em;
+    height: 23em;
+}
+
+@media screen and (max-width: 720px) {
+    .page-header {
+        height: 50vw;
+    }
 }
 
 .main-content {
     max-width: 64rem;
-    padding: 2rem 6rem;
+    padding: 3rem 6rem 2rem;
     margin: 0 auto;
     font-size: 1em;
 }
@@ -123,13 +129,19 @@ strong {
 /**
  * Navigation menu
  */
- div#nav {
+div#nav {
     position: absolute;
     width: 100%;
     text-align: center;
     z-index: 10;
     font-family: "Unicephalon", 'Roboto Slab', sans-serif;
     top: 22em;
+}
+
+@media screen and (max-width: 720px) {
+    div#nav {
+        top: 49vw;
+    }
 }
 
 div#nav div.relative {

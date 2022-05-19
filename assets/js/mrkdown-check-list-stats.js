@@ -12,7 +12,7 @@
     
         const element = document.createElement('code');
         element.style.position = 'absolute';
-        element.style.top = '-4rem';
+        element.style.top = '-5rem';
         element.style.right = '0';
         element.style.border = '1px solid #ccc';
         element.innerHTML = output;
