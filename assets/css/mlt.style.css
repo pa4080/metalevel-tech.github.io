@@ -1,7 +1,7 @@
 /* https://www.fontsquirrel.com/fonts/Harting */
 @font-face {
     font-family: "Unicephalon";
-    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('../fonts/unicephalon/unicephalon.heavy.ttf') format('truetype');
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('/assets/fonts/unicephalon/unicephalon.heavy.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -254,19 +254,19 @@ body {
 }
 
 .btn-left {
-    background-image: url('../icons/angle-left-white.svg');
+    background-image: url('/assets/icons/angle-left-white.svg');
 }
 
 .btn-left:active {
-    background-image: url('../icons/angle-left-green.svg');
+    background-image: url('/assets/icons/angle-left-green.svg');
 }
 
 .btn-right {
-    background-image: url('../icons/angle-right-white.svg');
+    background-image: url('/assets/icons/angle-right-white.svg');
 }
 
 .btn-right:active {
-    background-image: url('../icons/angle-right-green.svg');
+    background-image: url('/assets/icons/angle-right-green.svg');
 }
 
 .resource-info-wrapper {
