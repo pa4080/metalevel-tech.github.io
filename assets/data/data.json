@@ -30,5 +30,21 @@
         "desc":  "A simple JavaScript application that I developed while learning JS promises.",
         "src":   "github.com/metalevel-tech/js-promises-songs-gallery",
         "home":  "songsg.metalevel.tech/github"
+    },
+    {
+        "id":    5,
+        "label": "github.io",
+        "name":  "This page as project",
+        "desc":  "Test project for learning how to work with GitHub Pages.",
+        "src":   "github.com/metalevel-tech/metalevel-tech.github.io",
+        "home":  "github.metalevel.tech"
+    },
+    {
+        "id":    6,
+        "label": "Homework",
+        "name":  "JavaScript Advanced and React Course's Homework",
+        "desc":  "<a href='https://progressbg.net/javascript-advanced-with-reactjs/'> The course page at ProgressBG<a/>",
+        "src":   "github.com/metalevel-tech/js-advanced-react-progressbg-homework",
+        "home":  "github.metalevel.tech/js_homework/"
     }
 ]
