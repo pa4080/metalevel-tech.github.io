@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+    font-family: "Unicephalon";
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('../fonts/unicephalon/unicephalon.heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
 body {
     background-color: #fff;
     /* background-color: #f1f2f3; */
@@ -20,6 +28,11 @@ body {
     padding: 1.5rem 1rem 2.5rem;
     color: rgba(255, 255, 255, 1);
     background-color: #00913c;
+
+    // font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Unicephalon", 'Roboto Slab', sans-serif;
+    text-align: center;
+    background-image: none;
 }
 
 // For tablets or small laptops
@@ -42,14 +55,6 @@ body {
     .page-header {
         padding: 4.5rem 6rem 5.5rem;
     }
-}
-
-.page-header {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
-    text-align: center;
-    background-color: transparent;
-    background-image: none;
 }
 
 .page-header h1,
