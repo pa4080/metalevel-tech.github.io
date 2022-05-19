@@ -1,7 +1,4 @@
----
----
-
-@import "{{ site.theme }}";
+--- --- @import "{{ site.theme }}";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -19,7 +16,7 @@ body {
     // background-image: url(/assets/images/waves/waves_bright.svg);
     // background-position-x: 50%;
     // background-repeat: no-repeat;
-    
+
     // font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -72,18 +69,23 @@ h2.project-tagline {
     color: white;
     letter-spacing: .2em;
     margin-top: 0;
+    opacity: 1;
 }
 
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    // font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    // color: #36af94;
-    // line-height: 1.35;
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
     font-family: 'Roboto Slab', sans-serif;
-    color: #272f33;
+    font-weight: 700;
+    color: #00913c;
 }
 
-b, strong {
+b,
+strong {
     font-weight: 500;
 }
 
@@ -120,6 +122,7 @@ div#nav {
     text-align: center;
     z-index: 10;
 }
+
 div#nav div.relative {
     position: relative;
 }
@@ -189,7 +192,7 @@ a.nav-link:hover {
 /**
  * GitHub MarkDown Check Boxes
  */
-main#content > ul.task-list {
+main#content>ul.task-list {
     padding-left: 0.4em;
 }
 
