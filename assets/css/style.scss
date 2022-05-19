@@ -151,24 +151,24 @@ div#nav.sticky div#nav-inner {
     background-color: #00913c;
 }
 
-// For small screens
+// // For small screens
 div#nav {
-    top: 6.5rem;
+    top: 10em;
 }
 
-// For tablets or small laptops
-@media screen and (min-width: 42em) {
-    div#nav {
-        top: 8.5rem;
-    }
-}
+// // For tablets or small laptops
+// @media screen and (min-width: 42em) {
+//     div#nav {
+//         top: 8.5rem;
+//     }
+// }
 
-// For full screen
-@media screen and (min-width: 64em) {
-    div#nav {
-        top: 13.5rem;
-    }
-}
+// // For full screen
+// @media screen and (min-width: 64em) {
+//     div#nav {
+//         top: 13.5rem;
+//     }
+// }
 
 a.nav-link {
     color: white;
