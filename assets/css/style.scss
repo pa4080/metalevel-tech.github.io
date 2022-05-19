@@ -6,19 +6,14 @@
 body {
     background-color: #fff;
     /* background-color: #f1f2f3; */
-    background-image: url(/assets/images/waves/waves_bright.svg);
-    background-position-x: 50%;
-    background-repeat: no-repeat;
+    // background-image: url(/assets/images/waves/waves_bright.svg);
+    // background-position-x: 50%;
+    // background-repeat: no-repeat;
     
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: 16px;
     line-height: 1.75;
     color: #272f33;
-}
-
-// For small screens
-body {
-    // background-position-y: -350px;
 }
 
 .page-header {
@@ -92,6 +87,7 @@ b, strong {
 @media print {
     * {
         -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
 
     body {
@@ -142,8 +138,9 @@ div#nav-inner {
 
 div#nav.sticky div#nav-inner {
     background-color: white;
-    background-image: url(/assets/images/waves/waves_bright.svg);
-    box-shadow: #37aed617 0px 3px 10px 2px, #37b7a15e 0px 0px 12px 0px;
+    // background-image: url(/assets/images/waves/waves_bright.svg);
+    // box-shadow: #37aed617 0px 3px 10px 2px, #37b7a15e 0px 0px 12px 0px;
+    background-color: #00913c;
 }
 
 // For small screens
