@@ -150,7 +150,6 @@ div#nav {
 @media screen and (max-width: 720px) {
     div#nav {
         top: 49vw;
-        font-size: 4vw;
     }
 }
 
@@ -189,6 +188,12 @@ div#nav.sticky div#nav-inner {
     background-color: #00913c;
 }
 
+
+@media screen and (max-width: 520px) {
+    div#nav-inner {
+        height: 2em;
+    }
+}
 
 /**
  * Header links
