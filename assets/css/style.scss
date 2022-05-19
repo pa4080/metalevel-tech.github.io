@@ -81,7 +81,7 @@ h1.project-name {
 }
 
 h2.project-tagline {
-    font-size: .8em;
+    font-size: 1em;
     color: white;
     letter-spacing: .2em;
     margin-top: 0;
@@ -89,7 +89,7 @@ h2.project-tagline {
     margin: 0;
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 580px) {
     h1.project-name {
         font-size: 2.8vw;
     }
@@ -206,6 +206,12 @@ div#nav.sticky div#nav-inner {
     margin-top: 1.2em;
 }
 
+@media screen and (max-width: 520px) {
+    .header-links {
+        margin-top: .4em;
+    }
+}
+
 .header-links>a {
     display: inline-block;
     padding: .6em 0.8em;
@@ -230,6 +236,7 @@ div#nav.sticky div#nav-inner {
     transform: scale(1.4);
     transition: transform 0.2s ease-in-out;
 }
+
 // Header links
 
 a.nav-link {
@@ -252,6 +259,8 @@ a.nav-link:hover {
         display: none;
     }
 }
+
+
 
 /**
  * GitHub MarkDown Check Boxes
