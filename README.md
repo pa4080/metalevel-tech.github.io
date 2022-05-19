@@ -2,7 +2,6 @@
 
 Some notes about the repository maintenance.
 
-
 ## Submodules in use
 
 These are the active pages at this site:

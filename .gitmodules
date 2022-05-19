@@ -1,11 +1,3 @@
-[submodule "bindfs-to-home-bash"]
-	path = bindfs-to-home-bash
-	url = https://github.com/metalevel-tech/bindfs-to-home-bash.git
-	branch = master
-[submodule "cron-gui-launcher"]
-	path = cron-gui-launcher
-	url = https://github.com/metalevel-tech/cron-gui-launcher.git
-	branch = master
 [submodule "js_homework"]
 	path = js_homework
 	url = https://github.com/metalevel-tech/js-advanced-react-progressbg-homework
