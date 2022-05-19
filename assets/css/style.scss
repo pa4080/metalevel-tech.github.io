@@ -40,30 +40,23 @@ body {
 
 // For tablets or small laptops
 @media screen and (min-width: 42em) {
-    body {
-        background-position-y: -310px;
-    }
-
     .page-header {
-        padding: 2.5rem 6rem 3.5rem;
+        padding: 2.5rem 6rem 1.5em;
     }
 }
 
 // For full screen
-@media screen and (min-width: 64em) {
-    body {
-        background-position-y: -210px;
-    }
+// @media screen and (min-width: 64em) {
 
-    .page-header {
-        padding: 4.5rem 6rem 5.5rem;
-    }
-}
+//     .page-header {
+//         padding: 4.5rem 6rem 5.5rem;
+//     }
+// }
 
-.page-header h1,
-.page-header h2 {
-    text-shadow: 1px 1px 0 #37b1be94, -1px -1px 0 #37b1be94, 1px -1px 0 #37b1be94, -1px 1px 0 #37b1be94, 2px 2px 5px #5555552a;
-}
+// .page-header h1,
+// .page-header h2 {
+//     text-shadow: 1px 1px 0 #37b1be94, -1px -1px 0 #37b1be94, 1px -1px 0 #37b1be94, -1px 1px 0 #37b1be94, 2px 2px 5px #5555552a;
+// }
 
 header.page-header a {
     color: white;
@@ -86,7 +79,7 @@ h2.project-tagline {
     // font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     // color: #36af94;
     // line-height: 1.35;
-    font-family: "Unicephalon", 'Roboto Slab', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     color: #272f33;
 }
 
