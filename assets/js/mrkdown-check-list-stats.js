@@ -22,6 +22,6 @@
         wrapper.appendChild(element);
         
         const firstH1 = document.body.querySelector('main#content > h1:first-child');
-        firstH1.append(wrapper);
+        firstH1.prepend(wrapper);
     }
 })();
