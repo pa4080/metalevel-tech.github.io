@@ -54,8 +54,10 @@ body {
 }
 
 .footer-inner {
-    width: fit-content;
     margin: auto;
+	width: max-content;
+	width: fit-content;
+	width: -moz-fit-content;
 }
 
 .footer-inner>a {
