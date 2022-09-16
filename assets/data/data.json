@@ -34,13 +34,21 @@
     {
         "id":    5,
         "label": "github.io",
-        "name":  "This page as project",
+        "name":  "This page as a project",
         "desc":  "Test project for learning how to work with GitHub Pages.",
         "src":   "github.com/metalevel-tech/metalevel-tech.github.io",
         "home":  "github.metalevel.tech"
     },
     {
         "id":    6,
+        "label": "metalevel.tech",
+        "name":  "My homepage as a project",
+        "desc":  "React.js project for my landing page.",
+        "src":   "github.com/metalevel-tech/metalevel-tech.home.page",
+        "home":  "metalevel.tech"
+    },
+    {
+        "id":    7,
         "label": "Homework",
         "name":  "JavaScript Advanced and ReactJS course's homework",
         "desc":  "<a href='https://progressbg.net/javascript-advanced-with-reactjs/'>The course's home page at ProgressBG<a/>",
@@ -48,7 +56,7 @@
         "home":  "github.metalevel.tech/js_homework/"
     },
     {
-        "id":    7,
+        "id":    8,
         "label": "MDN",
         "name":  "MDN's documentation study.",
         "desc":  "My progress at the MDN's documentation.",
