@@ -8,7 +8,9 @@ const nodes = {
     itemName: document.querySelector('.item-name span'),
     itemDesc: document.querySelector('.item-desc span'),
     itemSrc: document.querySelector('.item-src span a'),
-    itemHome: document.querySelector('.item-home span a')
+    itemHome: document.querySelector('.item-home span a'),
+
+    container: document.querySelector('.table-inner-rest')
 }
 
 const dataBase = {
@@ -235,7 +237,8 @@ class Item {
 }
 
 (function init() {
-    if (window.location.pathname === '/') {
+    // if (window.location.pathname === '/') {
+    if (window.location.pathname === '/index.html') {
         window.addEventListener('load', async (event) => { 
             await Item.getItemsData(); // Item.addItemsButtonsToDom(); is invoked inside.
             // nodes.infoWrapper.style.display = 'block';
@@ -244,7 +247,9 @@ class Item {
     
         nodes.itemsToggleLeft.addEventListener('click', () => { Item.toggleItemsLeft(); });
         nodes.itemsToggleRight.addEventListener('click', () => { Item.toggleItemsRight(); });
-    } else {
+    } 
+    else {
         nodes.navigation.style.display = 'none';
+        nodes.container.innerHTML = '<div class="nav-items" style="padding: 2em 6em;"><div class="resource-item">Under construction</div></div>';
     }
 })();
